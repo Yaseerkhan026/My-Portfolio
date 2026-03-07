@@ -72,9 +72,9 @@ export default function PortfolioPage() {
       <main>
         <Hero 
           name="Yaseer Khan"
-          designation="Google Developer Expert - Firebase"
+          designation="Web Developer"
           tagline="Building robust, scalable applications with a focus on seamless user experiences."
-          introduction="I am a passionate 3rd-year student at Jhulelal Institute of Technology (JIT) and a Google Developer Expert for Firebase. I specialize in bridging the gap between complex backend architectures and intuitive frontend interfaces."
+          introduction="I am a passionate 3rd-year student at Jhulelal Institute of Technology (JIT) and a dedicated Web Developer. I specialize in bridging the gap between complex backend architectures and intuitive frontend interfaces."
         />
 
         <section id="experience" className="py-20 px-6">

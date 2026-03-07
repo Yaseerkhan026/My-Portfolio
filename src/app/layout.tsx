@@ -4,7 +4,7 @@ import './globals.css';
 
 export const metadata: Metadata = {
   title: 'Yaseer Khan | Portfolio',
-  description: 'GDE - Firebase & Developer Portfolio',
+  description: 'Web Developer & Firebase Expert Portfolio',
 };
 
 export default function RootLayout({

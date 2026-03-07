@@ -37,8 +37,8 @@ export function Hero({ name, designation, tagline, introduction }: HeroProps) {
               </span>
             </h1>
 
-            <div className="animate-in fade-in slide-in-from-bottom-4 duration-700 delay-500 fill-mode-both">
-              <p className="font-headline text-xl md:text-2xl font-medium text-muted-foreground border-l-4 border-accent pl-4">
+            <div className="animate-in fade-in slide-in-from-left-8 duration-1000 delay-500 fill-mode-both group/designation">
+              <p className="font-headline text-xl md:text-2xl font-medium text-muted-foreground border-l-4 border-accent pl-4 hover:pl-6 transition-all duration-300 group-hover/designation:text-accent cursor-default">
                 {designation}
               </p>
             </div>
