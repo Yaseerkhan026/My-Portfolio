@@ -6,6 +6,12 @@
       "description": "Professional profile picture of Yaseer Khan",
       "imageUrl": "https://picsum.photos/seed/yaseer/400/400",
       "imageHint": "professional man"
+    },
+    {
+      "id": "tech-visual",
+      "description": "Abstract technology and coding background",
+      "imageUrl": "https://picsum.photos/seed/techcode/800/600",
+      "imageHint": "coding technology"
     }
   ]
 }
