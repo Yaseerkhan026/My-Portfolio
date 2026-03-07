@@ -35,11 +35,11 @@ export default function PortfolioPage() {
     {
       title: "Student, 3rd Year",
       organization: "Jhulelal Institute Of Technology (JIT)",
-      duration: "2021 - Present",
+      duration: "2024 - Present",
       type: "education",
       description: [
         "Pursuing Bachelor of Engineering.",
-        "Active member of tech societies and development clubs."
+        "Quick Learner, and Effective Team Collaborator."
       ]
     },
     {
