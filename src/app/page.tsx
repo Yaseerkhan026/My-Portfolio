@@ -59,8 +59,8 @@ export default function PortfolioPage() {
   ];
 
   const contactInfo = {
-    email: "xyz@gmail.com",
-    phone: "1234567890",
+    email: "yaseerkhan.026@gmail.com",
+    phone: "9404514769",
     linkedin: "www.linkedin.com/in/yaseer-khan-7b7846287",
     location: "Nagpur, India"
   };
@@ -95,7 +95,9 @@ export default function PortfolioPage() {
           </div>
         </section>
 
-        <Skills skills={techSkills} />
+        <section id="skills">
+          <Skills skills={techSkills} />
+        </section>
 
         <BioRefiner />
 
