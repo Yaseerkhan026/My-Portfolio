@@ -1,0 +1,11 @@
+
+{
+  "placeholderImages": [
+    {
+      "id": "profile-pic",
+      "description": "Professional profile picture of Yaseer Khan",
+      "imageUrl": "https://picsum.photos/seed/yaseer/400/400",
+      "imageHint": "professional man"
+    }
+  ]
+}
