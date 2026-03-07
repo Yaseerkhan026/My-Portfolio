@@ -23,7 +23,7 @@ export default function PortfolioPage() {
       ]
     },
     {
-      title: "IANT Institute Of Technology",
+      title: "Institute Of Advanced Network Technology",
       organization: "IANT",
       duration: "Past Experience",
       type: "experience",
