@@ -55,7 +55,7 @@ export default function PortfolioPage() {
   ];
 
   const techSkills = [
-    "HTML", "CSS", "Java", "JavaScript", "React", "Python", "Firebase"
+    "HTML", "CSS", "C", "C++", "Java", "JavaScript", "React", "Python", "Firebase"
   ];
 
   const contactInfo = {
