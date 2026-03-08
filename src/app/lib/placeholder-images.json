@@ -4,14 +4,14 @@
     {
       "id": "profile-pic",
       "description": "Professional profile picture of Yaseer Khan",
-      "imageUrl": "https://picsum.photos/seed/yaseer/400/400",
+      "imageUrl": "https://picsum.photos/seed/yaseerprofile/400/400",
       "imageHint": "professional man"
     },
     {
       "id": "tech-visual",
       "description": "Modern developer workspace with city view and coding setup",
-      "imageUrl": "https://picsum.photos/seed/devworkspace/800/600",
-      "imageHint": "developer workspace"
+      "imageUrl": "https://picsum.photos/seed/techworkspace77/800/1200",
+      "imageHint": "developer setup"
     }
   ]
 }

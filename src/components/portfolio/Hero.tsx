@@ -84,7 +84,7 @@ export function Hero({ name, designation, tagline, introduction }: HeroProps) {
 
           {/* Decorative Tech Image */}
           <div className="absolute -right-12 md:-right-24 top-1/2 -translate-y-1/2 w-48 h-72 md:w-64 md:h-96 opacity-20 md:opacity-40 -z-10 blur-[1px] group-hover:blur-none transition-all duration-700">
-            <div className="w-full h-full rounded-2xl overflow-hidden border border-accent/20 shadow-inner rotate-12 bg-accent/5">
+            <div className="w-full h-full rounded-2xl overflow-hidden border border-accent/20 shadow-inner rotate-12 bg-accent/5 relative">
               {techVisual && (
                 <Image 
                   src={techVisual.imageUrl} 
