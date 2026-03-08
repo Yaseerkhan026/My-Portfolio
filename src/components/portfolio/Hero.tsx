@@ -19,7 +19,7 @@ export function Hero({ name, designation, tagline, introduction }: HeroProps) {
   return (
     <section className="pt-32 pb-20 px-6 overflow-hidden relative min-h-[80vh] flex items-center">
       <div className="max-w-6xl mx-auto grid grid-cols-1 lg:grid-cols-2 gap-12 items-center relative z-10">
-        <div className="space-y-8 text-center lg:text-left">
+        <div className="space-y-8 text-center lg:text-left order-2 lg:order-1">
           <div className="space-y-4">
             <div className="flex justify-center lg:justify-start animate-in fade-in slide-in-from-bottom-2 duration-700">
               <Badge variant="secondary" className="px-4 py-1.5 font-headline tracking-wide uppercase text-xs">
@@ -64,9 +64,9 @@ export function Hero({ name, designation, tagline, introduction }: HeroProps) {
           </div>
         </div>
 
-        <div className="relative hidden lg:block animate-in fade-in slide-in-from-right-8 duration-1000 delay-500">
-          <div className="relative z-10 rounded-3xl overflow-hidden shadow-2xl border-4 border-white aspect-[4/3]">
-            {heroImage && (
+        <div className="relative order-1 lg:order-2 animate-in fade-in slide-in-from-right-8 duration-1000 delay-500">
+          <div className="relative z-10 rounded-3xl overflow-hidden shadow-2xl border-4 border-white aspect-video lg:aspect-[4/3] w-full max-w-xl mx-auto">
+            {heroImage ? (
               <Image
                 src={heroImage.imageUrl}
                 alt={heroImage.description}
@@ -75,6 +75,10 @@ export function Hero({ name, designation, tagline, introduction }: HeroProps) {
                 priority
                 data-ai-hint={heroImage.imageHint}
               />
+            ) : (
+              <div className="w-full h-full bg-muted flex items-center justify-center text-muted-foreground">
+                Tech Image Placeholder
+              </div>
             )}
           </div>
           {/* Decorative element behind image */}
