@@ -19,7 +19,7 @@ export function Hero({ name, designation, tagline, introduction }: HeroProps) {
   return (
     <section className="pt-32 pb-20 px-6 overflow-hidden relative min-h-[90vh] flex items-center">
       <div className="max-w-6xl mx-auto grid grid-cols-1 lg:grid-cols-2 gap-12 lg:gap-20 items-center relative z-10">
-        {/* Text Content */}
+        {/* Text Content - Left Side on Desktop */}
         <div className="space-y-8 text-center lg:text-left order-2 lg:order-1">
           <div className="space-y-4">
             <div className="flex justify-center lg:justify-start animate-in fade-in slide-in-from-bottom-2 duration-700">
@@ -65,9 +65,9 @@ export function Hero({ name, designation, tagline, introduction }: HeroProps) {
           </div>
         </div>
 
-        {/* Hero Visual Section */}
-        <div className="relative order-1 lg:order-2 flex justify-center lg:justify-end animate-in fade-in slide-in-from-right-8 duration-1000 delay-500">
-          <div className="relative z-10 rounded-3xl overflow-hidden shadow-2xl border-8 border-white aspect-video lg:aspect-square w-full max-w-md lg:max-w-lg transition-all duration-500 hover:scale-[1.02] hover:rotate-1">
+        {/* Hero Visual Section - Right Side on Desktop */}
+        <div className="relative order-1 lg:order-2 flex justify-center lg:justify-end animate-in fade-in slide-in-from-right-8 duration-1000 delay-500 w-full">
+          <div className="relative z-10 rounded-3xl overflow-hidden shadow-2xl border-8 border-white aspect-square w-full max-w-[450px] transition-all duration-500 hover:scale-[1.02] hover:rotate-1">
             {heroImage ? (
               <Image
                 src={heroImage.imageUrl}
