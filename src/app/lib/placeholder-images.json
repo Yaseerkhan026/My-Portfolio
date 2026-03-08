@@ -14,10 +14,16 @@
       "imageHint": "coding setup"
     },
     {
-      "id": "hero-tech-setup",
-      "description": "Modern developer workspace with tech visualization",
-      "imageUrl": "https://picsum.photos/seed/techhero/800/600",
-      "imageHint": "laptop desk"
+      "id": "project-virtual-mouse",
+      "description": "Virtual Mouse Project Visualization",
+      "imageUrl": "https://picsum.photos/seed/virtualmouse/600/400",
+      "imageHint": "hand gesture"
+    },
+    {
+      "id": "project-portfolio",
+      "description": "Portfolio Website Preview",
+      "imageUrl": "https://picsum.photos/seed/portfolio-dev/600/400",
+      "imageHint": "web design"
     }
   ]
 }

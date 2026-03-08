@@ -6,6 +6,7 @@ import { Navbar } from "@/components/portfolio/Navbar";
 import { Hero } from "@/components/portfolio/Hero";
 import { ExperienceCard, type ExperienceItem } from "@/components/portfolio/ExperienceCard";
 import { Skills } from "@/components/portfolio/Skills";
+import { Projects } from "@/components/portfolio/Projects";
 import { Contact } from "@/components/portfolio/Contact";
 import { BioRefiner } from "@/components/portfolio/BioRefiner";
 import { Toaster } from "@/components/ui/toaster";
@@ -97,6 +98,8 @@ export default function PortfolioPage() {
         <section id="skills">
           <Skills skills={techSkills} />
         </section>
+
+        <Projects />
 
         <BioRefiner />
 
