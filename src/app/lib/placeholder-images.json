@@ -9,9 +9,9 @@
     },
     {
       "id": "tech-visual",
-      "description": "Abstract technology and coding background",
-      "imageUrl": "https://picsum.photos/seed/techcode/800/600",
-      "imageHint": "coding technology"
+      "description": "Modern developer workspace with city view and coding setup",
+      "imageUrl": "https://picsum.photos/seed/devworkspace/800/600",
+      "imageHint": "developer workspace"
     }
   ]
 }
