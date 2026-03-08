@@ -12,6 +12,12 @@
       "description": "Tech Portfolio Visual",
       "imageUrl": "https://storage.googleapis.com/nucamp-production.appspot.com/aiseo-blogs/coding-bootcamp-joliet-il/coding-bootcamp-joliet-il-top-10-tips-for-building-a-standout-tech-portfolio-in-joliet/thumbnail01.webp",
       "imageHint": "coding setup"
+    },
+    {
+      "id": "hero-tech-setup",
+      "description": "Modern developer workspace with tech visualization",
+      "imageUrl": "https://picsum.photos/seed/techhero/800/600",
+      "imageHint": "laptop desk"
     }
   ]
 }
