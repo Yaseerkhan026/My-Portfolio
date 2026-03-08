@@ -28,9 +28,21 @@ export function Hero({ name, designation, tagline, introduction }: HeroProps) {
                 Hi, I&apos;m{" "}
               </span>
               <br />
-              <span className="inline-block text-accent animate-in fade-in slide-in-from-bottom-6 duration-1000 delay-300 ease-out fill-mode-both hover:scale-105 transition-transform duration-300 cursor-default">
-                {name}
-              </span>
+              <div className="flex justify-center flex-wrap gap-x-[0.2em] select-none">
+                {name.split("").map((char, i) => (
+                  <span
+                    key={i}
+                    className="inline-block text-accent animate-in fade-in slide-in-from-bottom-12 duration-1000 fill-mode-both hover:scale-110 transition-transform duration-300"
+                    style={{ 
+                      animationDelay: `${400 + (i * 40)}ms`,
+                      animationTimingFunction: 'cubic-bezier(0.34, 1.56, 0.64, 1)',
+                      display: char === " " ? "inline" : "inline-block"
+                    }}
+                  >
+                    {char === " " ? "\u00A0" : char}
+                  </span>
+                ))}
+              </div>
             </h1>
 
             <div className="flex justify-center animate-in fade-in slide-in-from-bottom-8 duration-1000 delay-500 fill-mode-both">
