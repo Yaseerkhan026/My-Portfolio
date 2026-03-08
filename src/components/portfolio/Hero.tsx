@@ -46,7 +46,7 @@ export function Hero({ name, designation, tagline, introduction }: HeroProps) {
             </h1>
 
             <div className="flex justify-center animate-in fade-in slide-in-from-bottom-8 duration-1000 delay-500 fill-mode-both">
-              <p className="font-headline text-xl md:text-2xl font-medium text-muted-foreground px-6 py-2 bg-accent/5 rounded-full border border-accent/10 transition-all hover:bg-accent/10 hover:border-accent/20 cursor-default">
+              <p className="font-headline text-xl md:text-2xl font-medium text-muted-foreground px-6 py-2 bg-accent/5 rounded-full border border-accent/10 transition-all hover:bg-accent/10 hover:border-accent/30 hover:scale-105 hover:shadow-lg hover:shadow-accent/5 cursor-default active:scale-95">
                 {designation}
               </p>
             </div>
