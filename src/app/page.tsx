@@ -13,13 +13,12 @@ import { Toaster } from "@/components/ui/toaster";
 export default function PortfolioPage() {
   const experiences: ExperienceItem[] = [
     {
-      title: "GDE - Firebase",
-      organization: "Google Developers",
-      duration: "Ongoing",
-      type: "achievement",
+      title: "Diploma of Education, Computer Engineering",
+      organization: "Anjuman Polytechnic Sadar Nagpur",
+      duration: "2021 – 2024",
+      type: "education",
       description: [
-        "Google Developer Expert for Firebase, contributing to the global developer community.",
-        "Sharing knowledge through talks, blogs, and community support."
+        "Completed Diploma in Computer Engineering from Anjuman Polytechnic, Sadar, Nagpur"
       ]
     },
     {
