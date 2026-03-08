@@ -17,8 +17,9 @@ export function Hero({ name, designation, tagline, introduction }: HeroProps) {
   const heroImage = PlaceHolderImages.find((img) => img.id === "tech-visual");
 
   return (
-    <section className="pt-32 pb-20 px-6 overflow-hidden relative min-h-[80vh] flex items-center">
-      <div className="max-w-6xl mx-auto grid grid-cols-1 lg:grid-cols-2 gap-12 items-center relative z-10">
+    <section className="pt-32 pb-20 px-6 overflow-hidden relative min-h-[90vh] flex items-center">
+      <div className="max-w-6xl mx-auto grid grid-cols-1 lg:grid-cols-2 gap-12 lg:gap-20 items-center relative z-10">
+        {/* Text Content */}
         <div className="space-y-8 text-center lg:text-left order-2 lg:order-1">
           <div className="space-y-4">
             <div className="flex justify-center lg:justify-start animate-in fade-in slide-in-from-bottom-2 duration-700">
@@ -64,25 +65,26 @@ export function Hero({ name, designation, tagline, introduction }: HeroProps) {
           </div>
         </div>
 
-        <div className="relative order-1 lg:order-2 animate-in fade-in slide-in-from-right-8 duration-1000 delay-500">
-          <div className="relative z-10 rounded-3xl overflow-hidden shadow-2xl border-4 border-white aspect-video lg:aspect-[4/3] w-full max-w-xl mx-auto">
+        {/* Hero Visual Section */}
+        <div className="relative order-1 lg:order-2 flex justify-center lg:justify-end animate-in fade-in slide-in-from-right-8 duration-1000 delay-500">
+          <div className="relative z-10 rounded-3xl overflow-hidden shadow-2xl border-8 border-white aspect-video lg:aspect-square w-full max-w-md lg:max-w-lg transition-all duration-500 hover:scale-[1.02] hover:rotate-1">
             {heroImage ? (
               <Image
                 src={heroImage.imageUrl}
-                alt={heroImage.description}
+                alt="Tech Visualization"
                 fill
                 className="object-cover"
                 priority
-                data-ai-hint={heroImage.imageHint}
               />
             ) : (
               <div className="w-full h-full bg-muted flex items-center justify-center text-muted-foreground">
-                Tech Image Placeholder
+                Tech Visual
               </div>
             )}
           </div>
           {/* Decorative element behind image */}
-          <div className="absolute -top-6 -right-6 w-full h-full bg-accent/10 rounded-3xl -z-10 blur-2xl" />
+          <div className="absolute -top-10 -right-10 w-full h-full bg-accent/10 rounded-3xl -z-10 blur-3xl animate-pulse" />
+          <div className="absolute -bottom-10 -left-10 w-1/2 h-1/2 bg-primary/10 rounded-full -z-10 blur-3xl animate-pulse delay-700" />
         </div>
       </div>
 

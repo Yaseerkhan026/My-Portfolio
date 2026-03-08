@@ -1,3 +1,16 @@
 {
-  "placeholderImages": []
+  "placeholderImages": [
+    {
+      "id": "profile-pic",
+      "description": "Professional profile picture of Yaseer Khan",
+      "imageUrl": "https://picsum.photos/seed/yaseerprofile/400/400",
+      "imageHint": "professional man"
+    },
+    {
+      "id": "tech-visual",
+      "description": "Tech Portfolio Visual",
+      "imageUrl": "https://storage.googleapis.com/nucamp-production.appspot.com/aiseo-blogs/coding-bootcamp-joliet-il/coding-bootcamp-joliet-il-top-10-tips-for-building-a-standout-tech-portfolio-in-joliet/thumbnail01.webp",
+      "imageHint": "coding setup"
+    }
+  ]
 }
